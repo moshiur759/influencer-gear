@@ -118,7 +118,7 @@ header{
       background-color: #ffffff;
       width: 329px;
       height: 450px;
-      border-radius: 5px;
+      border-radius: 10px;
  }
  .product-thumline img{
       width: 300px;
@@ -172,3 +172,34 @@ header{
      margin-bottom: 10px;
 }
 
+/* See More style star */
+
+.see-link{
+     float: right;
+     margin-top: 50px;
+}
+.see-button{
+     font-weight: bold;
+     font-size: 16px;
+     color: #E02C6D;
+     text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+}
+.see-button .fa-arrow-right{
+     padding-left: 10px;
+}
+
+footer{
+     background-color: #0A0826;
+     width: 100%;
+     height: 239px;
+     display: flex;
+     justify-content: center;
+     align-items: center
+}
+.footer-container{
+     width: 262px;
+     height: 139px;
+     background-color: greenyellow;
+     
+}
