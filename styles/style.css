@@ -90,16 +90,15 @@ header{
 }
 
 .top-banner:hover .banner-image{
-     transform: rotate(45deg);
-     width: 480px;
-      height: 454px;
+    transform: rotate(360deg);
 }
  .banner-image{
       width: 440px;
       height: 414px;
       align-items: center;
       position: absolute;
-      transition: transform 0.3s  ease-in;
+      transition: transform 0.8s  ease-in;   
+    
  }
 
  /* product collection style start */
@@ -205,7 +204,7 @@ header{
      width: 1047px;
       height: 300px;
       margin-left: 12%;
-      margin-bottom: 90px;
+      margin-bottom: 70px;
       display: flex;
 }
 
@@ -281,3 +280,32 @@ footer{
 .social-media{
      margin-left: 15%;
 }
+
+/* ----------------------
+     Media Queries 
+------------------------*/
+
+/* Mobile device */
+@media only screen and (max-width:688px) {
+     
+     .container{
+          width: 90%;
+     }
+     .top-banner{
+          grid-template-columns: repeat(1, 1fr);
+     }
+     
+     .products-container{
+          width: 90%;
+          grid-template-columns: repeat(1, 1fr);
+          
+     }
+     /* .product-thumline img{
+          width: 90%;
+          height: 256px;
+          border-radius: 5px;
+     } */
+     .online-shopping, footer{
+          display: none;
+     }
+}  
