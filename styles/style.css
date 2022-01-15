@@ -16,6 +16,8 @@ background-color: #f1f1f1;
 /* google font Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
 
+/* google font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Roboto:wght@700&display=swap');
 
 /*--------------------
  header sttyle start  
@@ -81,11 +83,12 @@ header{
  /* banner thumline style :start */
 
  .banner-thumline{
-      margin-top: -88px;
+     margin-top: 0px;
 }
  .banner-image{
       width: 440px;
       height: 414px;
+      align-items: center;
  }
 
  /* product collection style start */
@@ -93,6 +96,7 @@ header{
  .products-container{
       width: 1047px;
       height: 1662px;
+      box-sizing: border-box;
  }
  .products-title{
       font-weight: 600;
@@ -101,6 +105,14 @@ header{
       text-align: center;
  }
 
+ .products{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 16px;
+     grid-column-gap: 16px;
+     align-items: baseline;
+     padding-left: 10%;
+ }
  .product{
       background-color: #ffffff;
       width: 329px;
@@ -119,8 +131,7 @@ header{
      margin: 15px;
  }
 
- 
- .product-name{
+  .product-name{
       font-weight: 500;
       font-size: 28px;
       color: #18191F;
@@ -139,10 +150,11 @@ header{
        margin-bottom: 3px;
 }
 .product-ratet{
-      margin-left: 8px;
-      font-weight: bold;
+     margin-left: 8px;
+     font-weight: bold;
      font-size: 14px;
      color: #5E6366;
+     font-family: 'Roboto', sans-serif;
 }
 .filled{
      color: orange;
@@ -154,5 +166,6 @@ header{
      font-weight: bold;
      font-size: 14px;
      color: #787885;
+     font-family: 'Inter', sans-serif;
 }
 
