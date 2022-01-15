@@ -13,6 +13,9 @@ background-color: #f1f1f1;
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* google font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+
 
 /*--------------------
  header sttyle start  
@@ -110,21 +113,46 @@ header{
       border-radius: 5px;
       margin: 15px;
  }
+ .product-info{
+     width: 300px;
+     border-radius: 5px;
+     margin: 15px;
+ }
+
  
  .product-name{
       font-weight: 500;
       font-size: 28px;
-      color: #18191F
+      color: #18191F;
+      margin-bottom: 8px;
  }
 
  .product-price{
-       font-weight: normal;
+     font-weight: normal;
       font-size: 24px;
       color: rgba(0, 0, 0, 0.87);
+      margin-bottom: 5px;
+      font-family: 'Inter', sans-serif;
  }
  .produce-feedback{
        display: flex;
+       margin-bottom: 3px;
 }
 .product-ratet{
       margin-left: 8px;
+      font-weight: bold;
+     font-size: 14px;
+     color: #5E6366;
 }
+.filled{
+     color: orange;
+}
+.empty{
+     color: #5E6366;
+}
+.product-description{
+     font-weight: bold;
+     font-size: 14px;
+     color: #787885;
+}
+
