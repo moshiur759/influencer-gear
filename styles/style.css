@@ -88,10 +88,18 @@ header{
  .banner-thumline{
      margin-top: -60px;
 }
+
+.top-banner:hover .banner-image{
+     transform: rotate(45deg);
+     width: 480px;
+      height: 454px;
+}
  .banner-image{
       width: 440px;
       height: 414px;
       align-items: center;
+      position: absolute;
+      transition: transform 0.3s  ease-in;
  }
 
  /* product collection style start */
@@ -99,6 +107,7 @@ header{
  .products-container{
       width: 1047px;
       height: 1530px;
+      margin-top: 80px;
       margin-left: 12%;
  }
  .products-title{
