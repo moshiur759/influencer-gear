@@ -296,9 +296,12 @@ footer{
      }
      
      .products-container{
-          width: 90%;
+          width: 100%;
           grid-template-columns: repeat(1, 1fr);
           
+     }
+     .product{
+          justify-content: center
      }
      /* .product-thumline img{
           width: 90%;
